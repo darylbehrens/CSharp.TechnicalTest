@@ -4,6 +4,8 @@ Pull repostiory locally.
 
 Read instructions carefully.
 
+Do not worry about being clever, if you solve the issue with standard code practices that will be enough.
+
 Comment code.
 
 Do not decompile any referenced libraries.
