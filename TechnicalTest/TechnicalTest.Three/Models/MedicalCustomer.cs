@@ -17,6 +17,7 @@ namespace TechnicalTest.Three
             {
                 case MedicalDiscipline.Dentist: return "Dentist";
                 case MedicalDiscipline.Surgeon: return "Surgeon";
+                case MedicalDiscipline.Nurse: return "Nurse";
                 default: throw new Exception("No Mapping to this Discipline");
             }
         }

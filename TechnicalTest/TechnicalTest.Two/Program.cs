@@ -1,4 +1,5 @@
-﻿using TechnicalTest.Library;
+﻿using System;
+using TechnicalTest.Library;
 using static TechnicalTest.Library.Helpers;
 
 namespace TechnicalTest.Two
@@ -18,8 +19,10 @@ namespace TechnicalTest.Two
         {
             try
             {
+                var testRep = new TestTwoRepository();
+                testRep.Get();
             }
-            catch
+            catch 
             {
                 Fail();
             }

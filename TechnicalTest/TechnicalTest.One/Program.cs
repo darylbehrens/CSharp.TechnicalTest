@@ -33,7 +33,36 @@ namespace TechnicalTest.One
         public static class FizzBuzz
         {
             // Write your Code In This Method
-            public static string Run() => throw new NotImplementedException();
+            public static string Run() {
+                string result = "";
+                for (int i = 1; i < 101; i++)
+                {
+                    if (i % 5 == 0)
+                    {
+                        if (i % 3 == 0)
+                        {
+                            result += "FizzBuzz";
+                        }
+                        else
+                        {
+                            result += "Buzz";
+                        }
+                    }
+                    else
+                    {
+                        if (i % 3 == 0)
+                        {
+                            result += "Fizz";
+                        }
+                        else
+                        {
+                            result += $"{i}";
+                        }
+                    }
+                    if (i < 100) result += "\n";
+                }
+                return result;
+            }
         }
     }
 }

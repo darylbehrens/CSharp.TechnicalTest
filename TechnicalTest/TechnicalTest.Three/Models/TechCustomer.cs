@@ -21,6 +21,7 @@ namespace TechnicalTest.Three
                 {
                     case OS.Linux: return "Linux";
                     case OS.Windows: return "Windows";
+                    case OS.OSX: return "OSX";
                     default: throw new Exception("No Mapping to this Operating System");
                 }
             }
